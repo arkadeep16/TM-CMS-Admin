@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+
+.badge {
+  line-height: 1.2 !important;
+}
+.main-color-bg {
+  color: #fff !important;
+  background-color: #dc3545 !important;
+  border-color: #c0392b !important;
+}
+.text-gray {
+  color: grey;
+  font-size: 25px;
+}
+
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  line-height: 1.2 !important;
+}
+
+.navbar {
+  padding: 0 !important;
+}
+#header {
+  background: #333;
+}
+.breadcrumb {
+  background: #ccc;
+  color: #333;
+}
+.breadcrumb a {
+  color: #333;
+}
+
+.web-overview .card-bg {
+  padding: 12px 0 !important;
+  background-color: rgba(0, 0, 0, 0.03) !important;
+}
+.web-overview .card-bg {
+  background-color: rgba(0, 0, 0, 0.03) !important;
+}
+.footer {
+  padding: 30px;
+}
